@@ -1,0 +1,76 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <header class="header">
+        <span class="icon material-icons-outlined" onclick="toggleThemeMenu()">menu</span>
+        <div ><img  class="logo" src="assets/logo.svg" alt="Inatel Logo" > </div>
+        <span class="icon material-icons-outlined">account_circle</span>
+      </header>
+      <div class="theme-menu" id="themeMenu">
+        <button onclick="setTheme('light-theme')">Claro</button>
+        <button onclick="setTheme('dark-theme')">Escuro</button>
+      </div>
+      <main class="main-content">
+        <section class="messages">
+          <h1>Olá, Raphael</h1>
+          <div class="message">
+            <span class="icon material-icons-outlined">notifications</span>
+            <div>
+              <p>Você possui um armário reservado com entrega para hoje...</p>
+            </div>
+          </div>
+          <div class="message">
+            <span class="icon material-icons-outlined">warning</span>
+            <div>
+              <p>Você possui uma pendência no financeiro...</p>
+            </div>
+          </div>
+        </section>
+        <section class="courses">
+          <div class="course">
+            <div>
+              <h2>Disciplina</h2>
+              <p>Sala e Horário</p>
+            </div>
+            <div>
+              <span class="icon material-icons-outlined">class</span>
+            </div>
+          </div>
+          <div class="course">
+            <div>
+              <h2>Disciplina</h2>
+              <p>Sala e Horário</p>
+            </div>
+            <div>
+              <span class="icon material-icons-outlined">class</span>
+            </div>
+          </div>
+          <div class="course">
+            <div>
+              <h2>Disciplina</h2>
+              <p>Sala e Horário</p>
+            </div>
+            <div>
+              <span class="icon material-icons-outlined">class</span>
+            </div>
+          </div>
+        </section>
+        <section class="news">
+          <h2>Card de Notícias</h2>
+          <p>Subtítulo</p>
+        </section>
+      </main>
+    </div>
+  
+  </body>
+
+  <script src="script.js"></script>
+  
+  </html>
